@@ -10,6 +10,7 @@ import Commu from "./pages/Commu";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import SearchResults from "./pages/Search-results";
+import Mypage from "./pages/Mypage";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <Route path="/community" element={<Commu />} />
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
+              <Route path="/mypage" element={<Mypage />} />
             </Routes>
           </div>
           <Footer />

@@ -14,7 +14,9 @@ const Menu = () => {
         <NavLink to="/community" activeClassName="active">
           <li className="menu community">커뮤니티</li>
         </NavLink>
-        <li className="menu my">마이페이지</li>
+        <NavLink to="/mypage" activeClassName="active">
+          <li className="menu my">마이페이지</li>
+        </NavLink>
       </ul>
     </>
   );
